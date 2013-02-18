@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>COC IEP 200: 2012/13 Winter Trimester Block 4 Calendar</title>
+    <meta name="viewport" content="width=device-width,
+      initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <link rel="stylesheet" type="text/css" href="screen.css">
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript">
+    $(function() {
+      $('html').addClass('hasjs');
+      // Get the current time as a Unix timestamp
+      currentTime = new Date();
+      currentTime = Math.round(currentTime.getTime() / 1000);
+      // Highlight the current and next wek
+      var futureWeeks = []
+
+      $('.week').each(function() {
+          weekTime = $(this).attr('data-expires');
+          if ((weekTime - currentTime) > 0) {
+            futureWeeks.push($(this));
+          }
+      });
+
+      futureWeeks[0].addClass('is-current is-visible');
+      futureWeeks[0].attr('id','current-week');
+      futureWeeks[1].addClass('is-next is-visible');
+
+      $('.week.is-next').append('<p><a id="show-calendar" href="#current-week">Show Full Calendar</a></p>');
+
+      $('#show-calendar').click(function() {
+        $(this).hide();
+        $('.week').addClass('is-visible');
+        $('.week').last().append('<p><a id="hide-calendar" href="#current-week">Hide Full Calendar</a></p>');
+        $('#hide-calendar').click(function() {
+          $('#show-calendar').show();
+          $(this).remove();
+          $('.week').removeClass('is-visible');
+        });
+      });
+
+      // Show/hide content
+      $('h2.label').append(' »')
+      $('h2.label').click(function() {
+        $(this).toggleClass('is-active');
+        $(this).next('.content').toggleClass('is-visible');
+      });
+
+      $('h2.label.calendar').click(function() {
+        $('.week').addClass('is-visible');
+        $(this).click(function() {
+          $('.week').toggleClass('is-visible');
+        });
+      });
+
+    });
+  </script>
+    <script type="text/javascript" src="//use.typekit.net/njk3tye.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </head>
+  <body>
+    <div id="page">
+      <div id="header">
+        <h1>Intensive English Program 200 (COC IEP 200)</h1>
+        <p class="tagline"> An Intensive English Program course for English as a Second Language adult students at the College of Chicago meeting Monday through Thursday from 9:30am to 3:00pm. This calendar is for 2012/13 Winter Trimester Block 4 from February 19th to March 14th 2013.</p>
+      </div>
+      <div id="calendar">
+        <h2 class="label calendar">Calendar</h2>
+        18 President’s Day NO CLASSES<br>
+        19&nbsp; winter trimester block 4 begins<br>
+        <br>
+        MARCH<br>
+        12 WHOLE SCHOOL TESTING <br>
+        13 early dismissal/late start due to faculty meetings<br>
+        14 PRESENTATION DAY<br>
+        <br>
+        move from daily lesson plans to lessons! ... instead of just
+        putting Fantom questions on the lesson plan, make a "lesson" for
+        the comic that we work through over multiple days<br>
+        + Phonics<br>
+        + <br>
+        <br>
+        http://en.wikipedia.org/wiki/Voice_(phonetics)<br>
+        http://www.langsci.ucl.ac.uk/ipa/<br>
+        http://www.yorku.ca/earmstro/ipa/<br>
+        http://www.youtube.com/user/EnglishAnyone<br>
+        http://www.imdb.com/title/tt1188996/<br>
+        http://grammar.ccc.commnet.edu/grammar/<br>
+        http://grammar.ccc.commnet.edu/grammar/powerpoint.htm<br>
+http://mentalfloss.com/article/31904/12-letters-didnt-make-alphabet<br>
+http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0001yB&amp;topic_id=1<br>
+http://www.newyorker.com/online/blogs/books/2013/02/a-readers-war.html<br>
+        <br>
+        <ol>
+          <li class="week" data-expires="">
+            <h3>Lesson 1: (February 19) Block Introduction; Tech Setup; Train
+              Manners; Yes/No Questions; Fluency /l/ &amp; /r/; Short
+              Story; News
+            </h3>
+            <div class="agenda">
+              <h4>In Class</h4>
+              <ol>
+                <li>News Hour: Ballet in Manila <a href="#nfy">News for You</a> Article<br>
+                </li>
+                <li>Review course syllabus &amp; calendar</li>
+                <li>Homework Check-in</li>
+                <li>Tech Setup: <a href="http://www.libreoffice.org/download">LibreOffice</a>, <a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a>, <a href="https://accounts.google.com/SignUp?continue=https%3A%2F%2Fwww.google.com%2F&hl=en">Google Account</a> and <a href="http://wordpress.com/">Wordpress.com Blog</a></li>
+                <li>Introduce this block's <a href="#ccrpp">Chicago Cultural Research Poster project</a></li>
+                <li><a href="#gic">Grammar in Context 1</a>: Review "present tense" from
+                  last block, review pages 56 to 58, discuss yes/no questions (2.9) and complete Exercise 20</li>
+                <li>Speaking: <a href="#th">/r/ &amp; /l/</a></li>
+                <li><a href="#ns">NorthStar 2 R&amp;W</a>: Begin Unit 5 (pp. 93 to 96) and introduce
+                  vocab words</li>
+                <li>Short Story: pages 26 to 28 of "<a href="#fp">Frozen Pizza and
+                  other slices of life</a>"</li>
+              </ol>
+            </div>
+            <div class="assigned">
+              <h4>For Next Class (February 20)</h4>
+              <dl>
+                <dt>To Read</dt>
+                <dd>
+                  <ol>
+                    <li><a href="#gic">Grammar in Context 1</a>: "2.10 <span
+                        style="font-style: italic;">Or</span> Questions"
+                      on page 59</li>
+                    <li><a href="#ns">NorthStar 2 R&amp;W</a>: "A Civilized Suggestion" on
+                      page 97</li>
+                    <li><a href="#fp">Frozen Pizza and other slices of life</a>: pages 29
+                      to 30</li>
+                    <li><a href="#nfy">News for You</a>: "Women in Combat" article on page
+                      1</li>
+                    <li>Course Syllabus &amp; Calendar</li>
+                  </ol>
+                </dd>
+                <dt>To Do</dt>
+                <dd>
+                  <ol>
+                    <li><a href="#ccrpp">Project</a>: Choose a topic for this month's Chicago Cultural Research Poster project and post it on your blog with the tag COCIEP200
+                    </li>
+                    <li><a href="#nfy">News for You</a>: Write a 3 sentence summary of the "Women in Combat" article and post it on your blog with the tag COCIEP200
+                    </li>
+                    <li>Write down 2 questions about the Course Syllabus &amp; Calendar
+                    </li>
+                    <li>Complete the teacher's survey about last block
+                    </li>
+                    <li><a href="#gic">Grammar in Context 1</a>: Exercise 21 on page 60</li>
+                    <li><a href="#ns">NorthStar 2 R&amp;W</a>: Exercises on page 98</li>
+                  </ol>
+                </dd>
+              </dl>
+            </div>
+          </li>
+          <li class="week" data-expires="">
+            <h3>Lesson 2: (February 20) Train Manners; Short Story; News; Research Articles; Fast Listening</h3>
+            <div class="agenda">
+              <h4>In Class</h4>
+              <ol>
+                <li>News Hour: Women in Combat <a href="#nfy">News for You</a> Article<br>
+                </li>
+                <li>Answer student questions about course syllabus &amp; calendar</li>
+                <li>Homework Check-in</li>
+                <li><a href="#ccrpp">Chicago Cultural Research Poster project</a>: How to find research articles</a></li>
+                <li><a href="#el">Fast Listening</a>: "A Student Credit Card" &amp; "Adsense: Making Money Online"</li>
+                <li><a href="#ns">NorthStar 2 R&amp;W</a>: Review page 98 and complete page 99 together in class</li>
+                <li>Short Story: pages 29 to 30 of "<a href="#fp">Frozen Pizza and
+                  other slices of life</a>"</li>
+              </ol>
+            </div>
+            <div class="assigned">
+              <h4>For Next Class (February 21)</h4>
+              <dl>
+                <dt>To Read</dt>
+                <dd>
+                  <ol>
+                    <li><a href="#gic">Grammar in Context 1</a>: "2.11 <em>Wh-</em> Questions with the Simple Present Tense"   			on page 61</li>
+                    <li><a href="#ns">NorthStar 2 R&amp;W</a>: "READING TWO" on pages 99 to 100</li>
+                    <li><a href="#fp">Frozen Pizza and other slices of life</a>: pages 31 to 32</li>
+                    <li><a href="#nfy">News for You</a>: "Iran Says It Sent Monkey Into Space" article on page 1</li>
+                  </ol>
+                </dd>
+                <dt>To Do</dt>
+                <dd>
+                  <ol>
+                    <li><a href="#ccrpp">Project</a>: Find your first research article and write your summary paragraph (4 sentences) then post it on your blog with the tag COCIEP200
+                    </li>
+                    <li><a href="#nfy">News for You</a>: Write a 3 sentence summary of the "Iran Says It Sent Monkey Into Space" article and post it on your blog with the tag COCIEP200
+                    </li>
+                    <li><a href="#gic">Grammar in Context 1</a>: Exercise 22 on page 61</li>
+                    <li><a href="#ns">NorthStar 2 R&amp;W</a>: Comprehension questions 1 to 5 on pages 100 to 101</li>
+                  </ol>
+                </dd>
+              </dl>
+            </div>
+          </li>
+
+          <li class="week" data-expires="1360634400">
+            <h3>Lesson 3: (February 21) Train Manners; 5 W's Simple Present Tense Questions; Comparing Present Tense Statements and Questions; Short Story; News; Revising Essays; Survey Questions</h3>
+            <div class="agenda">
+              <h4>In Class</h4>
+              <ol>
+                <li>News Hour: "Iran Says It Sent Monkey Into Space" <a href="#nfy">News for You</a> Article<br>
+                </li>
+                <li>Quiz 1</li>
+                <li>Homework Check-in</li>
+                <li><a href="#ccrpp">Chicago Cultural Research Poster project</a>: Research articles first draft review; survey questions introduction</a></li>
+                <li><a href="#gic">Grammar in Context 1</a>: Pages 60 to 63</li>
+                <li><a href="#ns">NorthStar 2 R&amp;W</a>: Pages 99 to 101</li>
+                <li>Short Story: pages 31 to 32 of "<a href="#fp">Frozen Pizza and
+                  other slices of life</a>"</li>
+              </ol>
+            </div>
+            <div class="assigned">
+              <h4>For Next Class (February 25)</h4>
+              <dl>
+                <dt>To Read</dt>
+                <dd>
+                  <ol>
+                    <li><a href="#gic">Grammar in Context 1</a>: "2.13 Questions About Meaning, Spelling, and Cost" on page 				64</li>
+                    <li><a href="#fp">Frozen Pizza and other slices of life</a>: pages 33 to 34</li>
+                    <li><a href="#nfy">News for You</a>: London Zoo Counts Every Animal, From Tigers to Tarantulas article</li>
+                  </ol>
+                </dd>
+                <dt>To Do</dt>
+                <dd>
+                  <ol>
+                    <li><a href="#ccrpp">Project</a>: Revise your first article summary paragraph; find three more research articles and write 3 more summary paragraphs (4 sentences each); and write 10 survey questions then post everything on your blog with the tag COCIEP200
+                    </li>
+                    <li><a href="#nfy">News for You</a>: Write a 3 sentence summary of the "London Zoo Counts Every Animal, From Tigers to Tarantulas" article and post it on your blog with the tag COCIEP200
+                    </li>
+                    <li><a href="#gic">Grammar in Context 1</a>: Exercise 26 on pages 64 to 65</li>
+                    <li><a href="#ns">NorthStar 2 R&amp;W</a>: Complete exercises on pages 102 to 103</li>
+                  </ol>
+                </dd>
+              </dl>
+            </div>
+          </li>
+          <li class="week" data-expires="1361239200">
+            <h3>Week 5: Accessibility; Agile, Mobile-first Design <small>February
+
+
+
+                11</small></h3>
+            <div class="agenda">
+              <h4>In Class</h4>
+              <ol>
+                <li>Reading discussion</li>
+              </ol>
+            </div>
+            <div class="assigned">
+              <h4>For Next Class</h4>
+              <dl>
+                <dt>To Read</dt>
+                <dd>
+                  <ol>
+                    <li>Stolley: Ch. 7</li>
+                    <li>Wroblewski: Part 2</li>
+                    <li> Swicegood: “Understanding and Using Branches”;
+                      “Working with Git’s History” (chapters 5 and
+                      6/print; chapters 7 and 8/ePub) </li>
+                    <li> Khoi Vinh, <cite>Ordering Disorder</cite>: Ch.
+                      1 and 2 </li>
+                    <li> Browse <a href="http://mediaqueri.es/">mediaqueri.es</a>;
+                      use mobile devices and/or narrow browser windows </li>
+                  </ol>
+                </dd>
+                <dt>To Do</dt>
+                <dd>
+                  <ol>
+                    <li>Begin working mobile-first techniques and
+                      principles into your project</li>
+                  </ol>
+                </dd>
+              </dl>
+            </div>
+          </li>
+          <li class="week" data-expires="1361844000">
+            <h3>Week 6: Usability; Responsive Design &amp; Grid-Based
+              Layout <small>February 18</small></h3>
+            <div class="agenda">
+              <h4>In Class</h4>
+              <ol>
+                <li>Reading discussion</li>
+              </ol>
+            </div>
+            <div class="assigned">
+              <h4>For Next Class</h4>
+              <dl>
+                <dt>To Read</dt>
+                <dd>
+                  <ol>
+                    <li>Stolley: Ch. 8; 20</li>
+                    <li>Vinh: Ch. 3-5</li>
+                    <li>Ethan Marcotte, <cite>Responsive Web Design</cite>:
+                      Ch. 1, 2, &amp; 4</li>
+                    <li> Swicegood: “Working with Remote Repositories”;
+                      “Organizing Your Repository”; “Beyond the Basics”
+                      (chapters 7, 8, 9/print; chapters 9, 10, 11/ePub)
+                    </li>
+                    <li> Grid systems: Look at <a href="http://960.gs/">960.gs</a>,
+                      <a href="http://978.gs/">978.gs</a>; search Google
+                      for other grid systems, especially responsive ones
+                    </li>
+                  </ol>
+                </dd>
+                <dt>To Do</dt>
+                <dd>
+                  <ol>
+                    <li>Work on grid-based, responsive design sketches</li>
+                  </ol>
+                </dd>
+              </dl>
+            </div>
+          </li>
+          <li class="week" data-expires="1362448800">
+            <h3>Week 7: Sustainability; SMACSS <small>February 25</small></h3>
+            <div class="agenda">
+              <h4>In Class</h4>
+              <ol>
+                <li>Reading discussion</li>
+              </ol>
+            </div>
+            <div class="assigned">
+              <h4>For Next Class</h4>
+              <dl>
+                <dt>To Read</dt>
+                <dd>
+                  <ol>
+                    <li>Marcotte: Ch. 3</li>
+                    <li> Jonathan Snook, <a href="http://smacss.com/">Scalable
+
+
+
+                        and Modular Architecture for CSS</a>: <a
+                        href="http://smacss.com/book/categorizing">Categorizing
+
+
+
+                        CSS Rules</a>, <a
+                        href="http://smacss.com/book/type-base">Base
+                        Rules</a>, <a
+                        href="http://smacss.com/book/type-layout">Layout
+                        Rules</a>, <a
+                        href="http://smacss.com/book/type-module">Module
+                        Rules</a>, <a
+                        href="http://smacss.com/book/applicability">Depth
+
+
+
+                        of Applicability</a> </li>
+                    <li>Retina readings (TBA)</li>
+                  </ol>
+                </dd>
+                <dt>To Do</dt>
+                <dd>
+                  <ol>
+                    <li>Research retina displays; go to the Apple store
+                      and try one?</li>
+                  </ol>
+                </dd>
+              </dl>
+            </div>
+          </li>
+          <li class="week" data-expires="1363053600">
+            <h3>Week 8: Retina Displays; CSS3, Web Fonts <small>March 4</small></h3>
+            <div class="agenda">
+              <h4>In Class</h4>
+              <ol>
+                <li>Reading Discussion</li>
+              </ol>
+            </div>
+            <div class="assigned">
+              <h4>For Next Class</h4>
+              <dl>
+                <dt>To Read</dt>
+                <dd>
+                  <ol>
+                    <li>Dan Cederholm, <cite>CSS3 for Web Designers</cite>:
+                      Ch. 1-5</li>
+                  </ol>
+                </dd>
+                <dt>To Do</dt>
+                <dd>
+                  <ol>
+                    <li>Look for design elements that can be replaced
+                      with CSS3</li>
+                  </ol>
+                </dd>
+              </dl>
+            </div>
+          </li>
+          <li class="week" data-expires="1364263200">
+            <h3>Week 9: Hosting &amp; Posting, Testing &amp; Tweaking <small>March
+
+
+
+                11</small></h3>
+            <div class="agenda">
+              <h4>In Class</h4>
+              <ol>
+                <li>Reading discussion</li>
+              </ol>
+            </div>
+            <div class="assigned">
+              <h4>For Next Class (March 25)</h4>
+              <dl>
+                <dt>To Read</dt>
+                <dd>
+                  <ol>
+                    <li>Marcotte: Ch. 5</li>
+                    <li>Stolley: Ch. 23, 24</li>
+                  </ol>
+                </dd>
+                <dt>To Do</dt>
+                <dd>
+                  <ol>
+                    <li>Develop a browser- and device-testing strategy</li>
+                  </ol>
+                </dd>
+              </dl>
+            </div>
+            <h3 class="bye-week">Week 10: No Class (Spring Break) <small>March
+
+
+
+                18</small></h3>
+          </li>
+          <li class="week" data-expires="1364868000">
+            <h3>Week 11: Work Week <small>March 25</small></h3>
+            <div class="agenda">
+              <h4>In Class</h4>
+              <ol>
+                <li>Unstructured project work-time</li>
+              </ol>
+            </div>
+            <div class="assigned">
+              <h4>For Next Class</h4>
+              <dl>
+                <dt>To Do</dt>
+                <dd>
+                  <ol>
+                    <li>Finish Project 2; prepare presentation</li>
+                  </ol>
+                </dd>
+              </dl>
+            </div>
+          </li>
+          <li class="week" data-expires="1365472800">
+            <h3>Week 12: Project 2 Due; Presentations <small>April 1</small></h3>
+            <div class="agenda">
+              <h4>In Class</h4>
+              <ol>
+                <li>Project Presentations</li>
+                <li>Introduce Project 3</li>
+              </ol>
+            </div>
+            <div class="assigned">
+              <h4>For Next Class</h4>
+              <dl>
+                <dt>To Read</dt>
+                <dd>
+                  <ol>
+                    <li>Stolley, Ch. 19</li>
+                    <li>More JavaScript, jQuery, &amp; DOM readings
+                      (TBA)</li>
+                  </ol>
+                </dd>
+                <dt>To Do</dt>
+                <dd>
+                  <ol>
+                    <li>Pitch Project 3 enhancement to Stolley via email</li>
+                  </ol>
+                </dd>
+              </dl>
+            </div>
+          </li>
+          <li class="week" data-expires="1366077600">
+            <h3>Week 13: JavaScript, jQuery, &amp; the DOM <small>April
+                8</small></h3>
+            <div class="agenda">
+              <h4>In Class</h4>
+              <ol>
+                <li>Reading discussion</li>
+              </ol>
+            </div>
+            <div class="assigned">
+              <h4>For Next Class</h4>
+              <dl>
+                <dt>To Read</dt>
+                <dd>
+                  <ol>
+                    <li>Server-side scripting readings (TBA)</li>
+                  </ol>
+                </dd>
+                <dt>To Do</dt>
+                <dd>
+                  <ol>
+                    <li>TBA</li>
+                  </ol>
+                </dd>
+              </dl>
+            </div>
+          </li>
+          <li class="week" data-expires="1366682400">
+            <h3>Week 14: Server-side Scripting <small>April 15</small></h3>
+            <div class="agenda">
+              <h4>In Class</h4>
+              <ol>
+                <li>Reading discussion</li>
+              </ol>
+            </div>
+            <div class="assigned">
+              <h4>For Next Class</h4>
+              <dl>
+                <dt>To Read</dt>
+                <dd>
+                  <ol>
+                    <li>SASS readings?</li>
+                  </ol>
+                </dd>
+                <dt>To Do</dt>
+                <dd>
+                  <ol>
+                    <li>TBA</li>
+                  </ol>
+                </dd>
+              </dl>
+            </div>
+          </li>
+          <li class="week" data-expires="1367287200">
+            <h3>Week 15: Work Week and/or SASS <small>April 22</small></h3>
+            <div class="agenda">
+              <h4>In Class</h4>
+              <ol>
+                <li>Work time</li>
+              </ol>
+            </div>
+            <div class="assigned">
+              <h4>For Next Class</h4>
+              <dl>
+                <dt>To Do</dt>
+                <dd>
+                  <ol>
+                    <li>Finish Site Enhancement Project</li>
+                  </ol>
+                </dd>
+              </dl>
+            </div>
+          </li>
+          <li class="week" data-expires="1368496800">
+            <h3>Week Sixteen: Site Enhancement Project Presentations <small>April
+
+
+
+                29</small></h3>
+            <h4>In Class</h4>
+            <ol>
+              <li>Presentations</li>
+            </ol>
+          </li>
+          <li class="week" data-expires="1368496800">
+            <h3>Finals Week</h3>
+            <h4>Site Enhancement Project due to instructor by 5:00pm on
+              May 8, 2013</h4>
+          </li>
+        </ol>
+      </div>
+      <div id="instructor">
+        <h2 class="label">Instructor</h2>
+        <ul class="content">
+          <li><a href="http://karlstolley.com/">Prof. Karl Stolley</a></li>
+          <li>karl.stolley@gmail.com</li>
+          <li>karlstolley on <a href="http://twitter.com/karlstolley">Twitter</a>,
+            <a href="https://alpha.app.net/karlstolley">App.net</a>,
+            &amp; <a href="http://kik.com/">Kik</a>. </li>
+          <li>Office in Siegel Hall 218</li>
+          <li>Office hours on Mondays, 4pm to 5pm &amp; by appointment</li>
+        </ul>
+      </div>
+      <div id="projects">
+        <h2 class="label">Project</h2>
+        <div class="content">
+          <h3><a name="ccrpp"></a>Chicago Cultural Research Poster Project</h3>
+          <p> This project will be an introduction to standards-based
+            web design. You will be creating two valid, well-formed
+            XHTML 1.0 Strict web pages: your resume or curriculum vitae,
+            and one item from your professional portfolio. </p>
+          <p> Both of your pages will be styled via two stylesheets
+            written in CSS: one for screen (<code>media="screen"</code>)
+            and one for print (<code>media="print"</code>). For this
+            project, you only have to style basic page typography and
+            colors. (You will work on more advanced layout and design
+            matters in the Professional Web Presence project.) </p>
+          <h4>Project Goals</h4>
+          <ul class="goals">
+            <li> Develop a clean, effective web-writing style: both in
+              your text content, and in your source code </li>
+            <li> Begin to develop a foundation in XHTML for accurately
+              describing the structure of text </li>
+            <li> Begin to develop a foundation in CSS for describing the
+              typography and color of content structured in XHTML </li>
+          </ul>
+          <h4>Deliverables &amp; Milestones</h4>
+          <ol class="deliverables">
+            <li> 2 XHTML files (resume/vita and portfolio page) and 2
+              CSS files (screen and print) draft by 1/24; final on 2/4)
+            </li>
+            <li> A self-critique memo that evaluates your project and
+              your progress in the class to this point (2-3 paragraphs;
+              due 2/4 via email or as a <code>README.md</code> in your
+              GitHub repository for the project) </li>
+            <li> A GitHub repository of your files, tagged as <code>p1</code>
+              (we will do this together in class on 2/4) </li>
+          </ol>
+          <h4>Requirements</h4>
+          <dl class="requirements">
+            <dt>Your XHTML pages must:</dt>
+            <dd>
+              <ul>
+                <li>Validate against the XHTML 1.0 Strict DOCTYPE</li>
+                <li> Use only valid, structural tags (e.g., headers,
+                  paragraphs, and lists) and <code>class</code>/<code>id</code>
+                  attributes </li>
+                <li> Be hand-written and original; do not use
+                  Dreamweaver’s WYSIWYG editor or any pre-made
+                  templates, although you can start with <a
+                    href="http://gist.github.com/544075">this bare-bones
+                    skeletal XHTML file</a> </li>
+                <li><strong>Not</strong> use tables, except for tabular
+                  data (if you have any)</li>
+                <li>Validate against the <a
+                    href="http://validator.w3.org/">W3C Markup
+                    Validation Service</a></li>
+              </ul>
+            </dd>
+            <dt>Your CSS files must:</dt>
+            <dd>
+              <ul>
+                <li> Be built over the top of a reset CSS file, such as
+                  the <a href="http://developer.yahoo.com/yui/reset/">Yahoo!
+
+
+
+                    Reset-Min CSS</a> </li>
+                <li> Use only valid CSS 1 &amp; 2 selectors, properties,
+                  and attributes (CSS3 will be covered in the next
+                  project) </li>
+                <li> Be loaded into your XHTML pages via the <code>&lt;link&gt;</code>
+                  tag in the head area (no inline styles via the <code>style=""</code>
+                  attribute or embedded in the head with the <code>&lt;style&gt;</code>
+                  tag) using the appropriate <code>media</code>
+                  attribute value. </li>
+                <li> Be hand-written and original; do not use
+                  Dreamweaver’s CSS property dialog boxes or any
+                  pre-made templates, although you should use the <a
+                    href="http://yui.yahooapis.com/2.9.0/build/reset/reset-min.css">Yahoo!
+
+
+
+                    reset-min.css</a> file. </li>
+                <li> Validate against the <a
+                    href="http://jigsaw.w3.org/css-validator/">W3C CSS
+                    Validation Service</a> </li>
+              </ul>
+            </dd>
+          </dl>
+          <h3>Project 2: Professional Web Presence <small>Due April 1</small></h3>
+          <p> This is the major project of Standards-Based Web Design:
+            the creation of your full professional web presence in a way
+            that will allow you to continue to add to and revise the
+            site into the future. Your site should include a
+            content-rich overview page (no splash pages), an “about
+            me”/biography page, your resume or vita, and at least 5
+            pages of portfolio items. You will also use CSS to add a
+            compelling layout to your pages, enhance your navigation,
+            and increase the accessibility and usability of your pages.
+            DOM scripting might also be a part of your pages in a way
+            that progressively enhances either their visual presentation
+            or interactivity. </p>
+          <p> At least two students will present each night of class
+            prior to 4/1; if at least two students do not volunteer, the
+            instructor will just call on people to present. Always come
+            prepared to show new work to the class. </p>
+          <h4>Deliverables &amp; Milestones</h4>
+          <ol class="deliverables">
+            <li> <strong>Your complete site</strong> at your own
+              openly-available URL (preferably yourname.com; due 4/1) </li>
+            <li> <strong>Your site’s Git repository</strong>, hosted at
+              GitHub.com (updated regularly; final due 4/1) </li>
+            <li> <strong>A self-critique memo</strong> that evaluates
+              your project and your progress in the class to this point
+              (due 4/1 via email or as a <code>README.md</code> in your
+              GitHub repository for the project) </li>
+            <li> <strong>Final presentation</strong> of your project
+              (due 4/1) </li>
+            <li> At least <strong>one in-progress presentation</strong>
+              of your work to the class (due before 4/1) </li>
+          </ol>
+          <h4>Requirements</h4>
+          <dl class="requirements">
+            <dt>Your site must:</dt>
+            <dd>
+              <ul>
+                <li> Be hosted and appear at your own openly-available
+                  URL (preferably <code>yourname.com</code>) </li>
+                <li> Have its source hosted at GitHub or another
+                  Git-based project host; if you opt to protect your
+                  repository, the instructor must be given access for
+                  grading purposes </li>
+                <li> Use a meaningful, search-engine-friendly URL
+                  structure </li>
+              </ul>
+            </dd>
+            <dt>Your pages must:</dt>
+            <dd>
+              <ul>
+                <li> Display appropriately (though not necessarily
+                  exactly the same) in Lynx, Firefox, Safari (or Google
+                  Chrome, if you have no Mac access), Opera, and
+                  Internet Explorer 8+ (IE); </li>
+                <li> Use responsive web design techniques (e.g., media
+                  queries, scalable images, flexible layouts) to display
+                  on mobile, tablet, and desktop devices </li>
+                <li> Use pixel-doubled images for retina displays </li>
+                <li> Make use of conditional comments to load CSS for
+                  IE, when necessary </li>
+              </ul>
+            </dd>
+            <dt>Your HTML must:</dt>
+            <dd>
+              <ul>
+                <li> Feature semantic markup in a sensible source order
+                  (structured for content, not presentation/design) </li>
+                <li> Include accessibility features, such as links for
+                  skipping to navigation or content sections </li>
+                <li> Use the HTML5 DOCTYPE </li>
+                <li> Use valid, structural tags (e.g., headers,
+                  paragraphs, and lists) and <code>class</code>/<code>id</code>
+                  attributes, written in XHTML-Strict style; new,
+                  well-supported HTML5 semantic tags are acceptable </li>
+                <li> Be hand-written and original; do not use
+                  Dreamweaver’s WYSIWYG editor or any pre-made
+                  templates, although you can start with the <a
+                    href="http://sustainablewebdesign.com/book/rpk/">Rapid
+
+
+
+                    Prototyping Kit</a> or another site foundation/grid
+                  system of your choice (seek approval from instructor
+                  first) </li>
+                <li> <strong>Not</strong> use tables, except for
+                  tabular data (if you have any) </li>
+                <li> Validate as HTML5 against the <a
+                    href="http://validator.w3.org/">W3C Markup
+                    Validation Service</a> </li>
+              </ul>
+            </dd>
+            <dt>Your CSS must:</dt>
+            <dd>
+              <ul>
+                <li> Be built over the top of a reset CSS file, such as
+                  the <a href="http://developer.yahoo.com/yui/reset/">Yahoo!
+
+
+
+                    Reset-Min CSS</a> or a CSS normalization file </li>
+                <li> Use only valid CSS 1 &amp; 2 and widely-supported
+                  CSS3 selectors, properties, and attributes (CSS3
+                  should only be used on the experience layer, and with
+                  all necessary vendor prefixes; see the Cederholm book)
+                </li>
+                <li>Not use hacks; use conditional comments instead</li>
+                <li> Be loaded into your HTML pages via the <code>&lt;link&gt;</code>
+                  tag in the head area (no inline styles via the <code>style=""</code>
+                  attribute or embedded in the head with the <code>&lt;style&gt;</code>
+                  tag) using the appropriate <code>media</code>
+                  attribute value. </li>
+                <li> Be hand-written and original; do not use of
+                  Dreamweaver's CSS property dialog boxes or any
+                  pre-made templates, although you should use the <a
+                    class="ext"
+                    href="http://yui.yahooapis.com/2.9.0/build/reset/reset-min.css">Yahoo!
+
+
+
+                    reset-min.css</a> file. </li>
+                <li> Make use of media-queries for responsive design
+                  across mobile, tablet, desktop, and other screens </li>
+                <li> Validate against the <a class="ext"
+                    href="http://jigsaw.w3.org/css-validator/">W3C CSS
+                    Validation Service</a> (at least all CSS 1 &amp; 2;
+                  consider segregating CSS3 with vendor prefixes to its
+                  own file) </li>
+              </ul>
+            </dd>
+            <dt>If you include any JavaScript/DOM Scripting, it must:</dt>
+            <dd>
+              <ul>
+                <li> Be built using jQuery, MooTools, or another
+                  actively developed, standards-compliant
+                  library/framework </li>
+                <li> Adhere to progressive enhancement design principles
+                  (in other words, your site must still work in
+                  JavaScript-less environments) </li>
+                <li> Not throw any errors (e.g., in the Web Developer
+                  plugin) </li>
+              </ul>
+            </dd>
+          </dl>
+          <h4>Project Goals</h4>
+          <ul class="goals">
+            <li> Establish a solid and sound representation of yourself
+              and your skills, based on your career or field of
+              study/area of expertise </li>
+            <li> Organize and style your professional site using
+              responsive design techniques for maximum rhetorical effect
+              under particular viewing conditions (mobile, tablet,
+              desktop) </li>
+            <li> Learn to prepare and organize appropriate materials to
+              represent yourself on the web </li>
+            <li> Learn to use CSS to control the layout and design of
+              HTML pages, using grid-based design methods for layout and
+              typography </li>
+            <li> Use, if necessary, JavaScript on the DOM to
+              progressively enhance your pages for JavaScript-capable
+              browsers and devices </li>
+            <li> Learn to develop your site in a baseline browser, test
+              in other browsers, and use conditional comments to address
+              the oddities of Internet Explorer </li>
+            <li> Use a version control system (Git) for agile
+              incremental development of your site, including feature
+              branches for experimentation and parallel development </li>
+          </ul>
+          <h3>Project 3: Website Enhancement <small>Due April 1</small></h3>
+          <p> For project three, you will extend your website from
+            project two in some way. Full project description TBA. </p>
+          <h4>Deliverables &amp; Milestones</h4>
+          <p>TBA</p>
+          <h4>Requirements</h4>
+          <p>TBA</p>
+          <h4>Project Goals</h4>
+          <p>TBA</p>
+          <h3>(COM530 Students Only) Project 4: TBA</h3>
+          <p> Description TBA. </p>
+          <h4>Deliverables &amp; Milestones</h4>
+          <p>TBA</p>
+          <h4>Requirements</h4>
+          <p>TBA</p>
+          <h4>Project Goals</h4>
+          <p>TBA</p>
+        </div>
+      </div>
+      <div id="policies">
+        <h2 class="label">Policies</h2>
+        <div class="content">
+          <ol>
+            <li>
+              <h3>Course Description</h3>
+              <p> This course introduces the theory and practice of
+                standards-based web design and development. The course
+                focuses on an agile, incremental approach to building
+                accessible, usable, and sustainable web pages that work
+                across all modern browsers and web-enabled mobile
+                devices. Beyond web design, the course provides a
+                rhetorical and technological foundation for quickly
+                establishing competencies in other areas of digital
+                communication, such as web application development. </p>
+            </li>
+            <li>
+              <h3>Course Goals</h3>
+              <ul>
+                <li> Learn to create, prepare, and maintain web- and
+                  audience-appropriate text and media </li>
+                <li> Learn to structure web pages that are both valid
+                  and well-formed according to the Extensible Hypertext
+                  Markup Language (XHTML) and HTML5 </li>
+                <li> Learn to create page designs using the Cascading
+                  Style Sheet (CSS) design language </li>
+                <li> Understand and implement web standards from the
+                  World Wide Web Consortium (W3C), Ecma, ISO, and other
+                  standards-issuing groups </li>
+                <li> Understand and apply progressive enhancement and
+                  responsive design in web development </li>
+                <li> Develop an agile approach to web writing and
+                  design, supplemented by the use of a version control
+                  system (Git) </li>
+                <li> Apply course concepts and adjust/extend course
+                  projects to fit your own academic and professional
+                  interests </li>
+              </ul>
+            </li>
+            <li>
+              <h3>Materials and Technologies</h3>
+              <h4>Required Texts</h4>
+              <ul>
+                <li> Cederholm, D. (2010). <cite>CSS3 for web designers</cite>.
+                  New York, NY: A Book Apart. (available for purchase
+                  from <a
+                    href="http://www.abookapart.com/products/css3-for-web-designers">A
+                    Book Apart</a>) </li>
+                <li> Maeda, J. (2006). <cite>The laws of simplicity:
+                    Design, business, technology, life</cite>.
+                  Cambridge, MA: The MIT Press. </li>
+                <li> Marcotte, E. (2011). <cite>Responsive web design</cite>.
+                  New York, NY: A Book Apart. (available for purchase
+                  from <a
+                    href="http://www.abookapart.com/products/responsive-web-design">A
+                    Book Apart</a>) </li>
+                <li> Stolley, K. (2011). <cite>How to design and write
+                    web pages today</cite>. Santa Barbara, CA: Greenwood
+                  Press. </li>
+                <li> Swicegood, T. (2008). <cite>Pragmatic version
+                    control using Git</cite>. Pragmatic Bookshelf.
+                  (available at the bookstore or as an ebook from <a
+href="http://pragprog.com/titles/tsgit/pragmatic-version-control-using-git">Pragmatic
+
+
+
+                    Bookshelf</a> </li>
+                <li> Vinh, K. (2011). <cite>Ordering disorder: Grid
+                    principles for web design</cite>. Berkeley, CA: New
+                  Riders. </li>
+                <li> Wroblewski, L. (2012) <cite>Mobile first</cite>.
+                  New York, NY: A Book Apart. (available for purchase
+                  from <a
+                    href="http://www.abookapart.com/products/mobile-first">A
+                    Book Apart</a>) </li>
+                <li> Plus other electronic books, articles, and
+                  materials linked to from the course calendar </li>
+              </ul>
+              <h4>Required Technologies</h4>
+              <ul>
+                <li>Ad-free, commercially hosted Web space that you
+                  control and the domain of your name</li>
+                <li>A <a href="https://github.com/">GitHub</a> account
+                  (free/public or pay/private)</li>
+                <li>A private/public RSA key pair (we will create these
+                  in class if you don't yet have them)</li>
+                <li>Firefox, Google Chrome, and other non-Internet
+                  Explorer browsers</li>
+                <li><a href="http://www.apachefriends.org/en/xampp.html">XAMPP</a>
+                  or a similar web server for testing, installed on a
+                  USB stick or your computer</li>
+                <li>A sketchbook</li>
+              </ul>
+              <h4>Recommended Technologies</h4>
+              <ul>
+                <li>A Ubuntu installation (or Ubuntu Live CD) to run
+                  Ubuntu Linux on your own computer</li>
+                <li>A Twitter account</li>
+                <li>A Delicious or Diigo account for social bookmarking</li>
+              </ul>
+            </li>
+            <li>
+              <h3>Grading Policy: COM381 Students</h3>
+              <ul>
+                <li>Project 1: 20pts</li>
+                <li>Project 2: 50pts</li>
+                <li>Project 3: 10pts</li>
+                <li>Class Participation: 20pts</li>
+                <li>TOTAL: 100pts</li>
+              </ul>
+              <p>A = 90+ pts; B = 80-89pts; C = 70-79pts; D = 60-69pts;
+                E =&lt; 59 pts</p>
+              <h4>Grading Criteria</h4>
+              <ul>
+                <li> A - Student has turned in all required components
+                  of a project, the work is exceptional in quality, and
+                  reflects the student’s dedication to adjusting the
+                  project to his or her own interests. </li>
+                <li> B - Student has turned in all required components
+                  of a project, and the work is exceptional for
+                  undergraduate work. </li>
+                <li> C - Student has turned in all required components
+                  of a project and submitted work that is acceptable as
+                  undergraduate level. </li>
+                <li> D - Student has turned in all required components
+                  of a project, but the work is below undergraduate
+                  level. </li>
+                <li> E - Student has not turned in all required
+                  components of a project. </li>
+              </ul>
+            </li>
+            <li>
+              <h3>Grading Policy: COM530 Students</h3>
+              <ul>
+                <li>Project 1: 20pts</li>
+                <li>Project 2: 50pts</li>
+                <li>Project 3: 10pts</li>
+                <li>Project 4: 10pts</li>
+                <li>Class Participation: 10pts</li>
+                <li>TOTAL: 100pts</li>
+              </ul>
+              <p>A = 90+ pts; B= 80-89pts; C=70-79pts; E =&lt; 69 pts</p>
+              <h4>Grading Criteria</h4>
+              <ul>
+                <li> A - Student has turned in all required components
+                  of a project, the work is exceptional in quality, and
+                  reflects the student's dedication to adjusting the
+                  project to his or her own interests. </li>
+                <li> B - Student has turned in all required components
+                  of a project and submitted work that is acceptable as
+                  graduate level. </li>
+                <li> C - Student has turned in all required components
+                  of a project, but the work is below graduate level. </li>
+                <li> E - Student has not turned in all required
+                  components of a project. </li>
+              </ul>
+            </li>
+            <li>
+              <h3>Course Technology Policy</h3>
+              <p> Because technology is an essential part of web design
+                and development, it is essential to this class. You are
+                just as responsible for learning to command various
+                technologies (HTML and CSS in particular, as well as
+                Git) as for any other course content. Difficulty with
+                technology is not an acceptable excuse for being
+                unprepared for class. </p>
+              <p> If you are having trouble with technology or any other
+                material covered in this course, it is your professional
+                responsibility to do research beyond the resources and
+                guidance provided in class and find materials that work
+                for you. I also encourage all students to meet with me
+                during my office hours or at another arranged time
+                outside of class or to contact me via email or GChat, or
+                our Campfire room, well in advance of project deadlines.
+              </p>
+              <p> Note that coming to class with broken or
+                malfunctioning work is far better than showing up with
+                nothing but an excuse like “I just didn’t get it.” For
+                most of the semester, it is <em>expected</em> that
+                you’ll show up with broken work. When you’re learning,
+                effort is more important than perfection. Just be sure
+                to put in the effort early, and not the night before a
+                project is due. </p>
+            </li>
+            <li>
+              <h3>Attendance and Participation</h3>
+              <p> Your attendance and active participation are required
+                both for your own success in the class, and for the
+                success of the class as a whole. However, if you
+                absolutely must miss, please contact me ahead of time
+                via email. </p>
+            </li>
+            <li>
+              <h3>Academic Honesty</h3>
+              <p> As with any course at IIT, you are expected to uphold
+                the Code of Academic Honesty as described in the <a
+href="http://www.iit.edu/student_affairs/handbook/pdfs/handbook_fy13.pdf">IIT
+
+
+
+                  Student Handbook</a>). All work for this course must
+                be your own original effort, including print and digital
+                page design and computer code. Summarizations and
+                quotations of text, as well as any use of open-source
+                code libraries and images not of your own making, should
+                be clearly cited as legally and ethically warranted and
+                rhetorically appropriate. </p>
+              <p> If you are at all uncertain as to whether you are
+                submitting work that in whole or in part may violate the
+                Code of Academic Honesty, please contact me immediately
+                and before the work is due. The consequences of academic
+                dishonesty are severe. Any student who violates the Code
+                of Academic Honesty will be subject to expulsion from
+                this course with a failing grade, and I will report the
+                student to the Chair of the Department of Humanities and
+                the Associate Dean of Graduate Academic Affairs, who may
+                take additional disciplinary action. </p>
+            </li>
+            <li>
+              <h3>Special Needs Statement</h3>
+              <p> Reasonable accommodations will be made for students
+                with documented disabilities. In order to receive
+                accommodations, students must obtain a letter of
+                accommodation from the Center for Disability Resources.
+                The Center for Disability Resources (CDR) is located in
+                IIT Tower, 3424 S. State Street - 1C3-2. Contact the
+                Center by telephone at 312-567-5744 or via email at
+                disabilities@iit.edu </p>
+              <p> Students who have any difficulty (either permanent or
+                temporary) that might affect their ability to perform in
+                class should contact me privately, either in person or
+                via email, at the start of the semester. Methods,
+                materials, or deadlines will be adapted as required to
+                ensure equitable participation. </p>
+            </li>
+	    <li>
+              <h3>Course Texts</h3>
+              <ul>
+		<li><a name="gic"></a>Elbaum, S. (2006). Grammar in context 1 (4th ed.) Student Book. Boston, MA: Heinle.
+<ul><li>ISBN: 978-1-4130-0736-7. Buy on <a href="http://amzn.com/B001CENUXM">Amazon</a>. Find at your library via Wikipedia's <a href="http://en.wikipedia.org/w/index.php?title=Special:BookSources&isbn=978-1-4130-0736-7">Book Sources</a>.</li></ul></li>
+              <li><a name="ns"></a>Haugnes, N. & Maher, B. (2009). NorthStar: Reading and writing level 2 (3rd ed.) Student Book. F. Boyd & C. Numrich (Eds.) White Plains, NY: Pearson Education.
+<ul><li>ISBN: 978-0-13-240991-9. Publisher's <a href="http://www.pearsonlongman.com/ae/northstar3e/reading.html">Book Website</a>. Buy on <a href="http://amzn.com/0132409917">Amazon</a>. Find at your library via Wikipedia's <a href="http://en.wikipedia.org/w/index.php?title=Special:BookSources&isbn=978-0-13-240991-9">Book Sources</a>.</li></ul></li>
+		<li><a name="fp"></a>Moses, A. (2002). Frozen pizza and other slices of life. Cambridge: Cambridge University Press.
+<ul><li>ISBN: 978-0-521-75078-3. Publisher's <a href="http://www.cambridge.org/gb/elt/catalogue/subject/project/pricing/isbn/item1165469/Cambridge-English-Readers-Frozen-Pizza-and-Other-Slices-of-Life:-Paperback/?site_locale=en_GB&currentSubjectID=7579">Book Website</a>. Buy on <a href="http://amzn.com/0521750784">Amazon</a>. Find at your library via Wikipedia's <a href="http://en.wikipedia.org/w/index.php?title=Special%3ABookSources&isbn=978-0-521-75078-3">Book Sources</a>.</li></ul></li>            
+		<li><a name="nfy"></a>News for You ISSN. Print issue and teacher's guide:
+<ul><li>13 Feb. 2013 - <a href="http://newsforyouonline.com/stories.asp?ID=1231">Women in Combat: Two Views in One Army Family</a>; <a href="http://newsforyouonline.com/stories.asp?ID=1232">Iran Says It Sent Monkey Into Space</a>; </li></ul></li>            
+		<li><a name="el"></a>Randall's ESL Cyber Listening Lab
+<ul><li>20 Feb. '13 - <a href="http://www.esl-lab.com/credit/creditcardrd1.htm">A Student Credit Card</a> &amp; <a href="http://www.esl-lab.com/adsense/adsenserd1.htm">Adsense: Making Money Online</a></li></ul></li>
+		<li><a name="th"></a>Teacher Handouts:
+		<ul>
+			<li>Winter Trimester 2012/13 Block 4 Quiz 1 Study Guide. Download from danoff dot org ( kB; pages) [CC0 licensed]</li>
+			<li>/l/ and /r/ pronunciation by <a href="http://gretchenesl.blogspot.com/">Gretchen Dee</a></li>
+			<li>Teacher's Survey adapted from Seattle's</li>
+			<li>Fast Listening Lessons 1 to 9 by <a href="http://gretchenesl.blogspot.com/">Gretchen Dee</a></li>
+		</ul></li>
+
+
+
+	</li>
+          </ol>
+        </div>
+      </div>
+      <div id="footer">
+        <p class="fineprint"> Course Calendar Copyright &#169; 2013 by <a
+            href="http://danoff.org">Charlie Danoff</a> / <a
+            href="http://dalab.cc">Mr. Danoff's Teaching Laboratory</a>. Rights given <a
+            href="http://creativecommons.org/licenses/by-nc/2.0/"
+            rel="license">Creative Commons 2.0 Attribution</a> License. Remixed from <a href="http://karlstolley.com/">Karl Stolley's</a> <a href="https://github.com/karlstolley/wd/blob/master/index.html">COM381/530 Course Calendar</a> (<a
+            href="http://creativecommons.org/licenses/by-nc/2.0/"
+            rel="license">CCA 2.0</a> licensed). <a
+            href="https://github.com/danoff/elt">Source hosted on
+            GitHub</a>. </p>
+      </div>
+    </div>
+  </body>
+</html>
