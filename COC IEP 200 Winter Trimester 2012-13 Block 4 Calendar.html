@@ -1,66 +1,50 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html lang="en">
-  <head>
+<head>
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <title>COC IEP 200: 2012/13 Winter Trimester Block 4 Calendar</title>
-    <meta name="viewport" content="width=device-width,
-      initial-scale=1.0">
+  <link rel="stylesheet" href="http://danoff.org/danoff-dot-org-style.css">
+
+<!-- Start Meta -->
+
+<meta name="keywords" content="COC IEP 200, Intensive English Program, IEP, ESL" /> 
+<meta name="description" content="Course calendar for Winter Trimester 2012/13 Bloc 4 COC IEP 200 Class." /> 
+<meta name="author" content="Charles Jeffrey Danoff" /> 
+<link rel="author" href="mailto:contact@mr.danoff.org" /> 
+<link rel="openid2.provider" href="https://www.google.com/accounts/o8/ud?source=profiles" > 
+<link rel="openid2.local_id" href="http://www.google.com/profiles/danoff.charles" >
+<meta name='DC.Rights' content='CCA 2.0'/>
+<meta name="copyright" content="Copyright 2013 Charles Jeffrey Danoff."> 
+<meta name='DC.Created' content='2013-02-18'/>
+</meta>
+
+<!-- End Meta -->
+
+<!-- Mobile & IE -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <link rel="stylesheet" type="text/css" href="screen.css">
-    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
-    <script type="text/javascript">
-    $(function() {
-      $('html').addClass('hasjs');
-      // Get the current time as a Unix timestamp
-      currentTime = new Date();
-      currentTime = Math.round(currentTime.getTime() / 1000);
-      // Highlight the current and next wek
-      var futureWeeks = []
 
-      $('.week').each(function() {
-          weekTime = $(this).attr('data-expires');
-          if ((weekTime - currentTime) > 0) {
-            futureWeeks.push($(this));
-          }
-      });
+<!-- Start Google Analytics -->
 
-      futureWeeks[0].addClass('is-current is-visible');
-      futureWeeks[0].attr('id','current-week');
-      futureWeeks[1].addClass('is-next is-visible');
+<script type="text/javascript">
 
-      $('.week.is-next').append('<p><a id="show-calendar" href="#current-week">Show Full Calendar</a></p>');
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-26501875-1']);
+  _gaq.push(['_setDomainName', '.danoff.org']);
+  _gaq.push(['_trackPageview']);
 
-      $('#show-calendar').click(function() {
-        $(this).hide();
-        $('.week').addClass('is-visible');
-        $('.week').last().append('<p><a id="hide-calendar" href="#current-week">Hide Full Calendar</a></p>');
-        $('#hide-calendar').click(function() {
-          $('#show-calendar').show();
-          $(this).remove();
-          $('.week').removeClass('is-visible');
-        });
-      });
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
 
-      // Show/hide content
-      $('h2.label').append(' »')
-      $('h2.label').click(function() {
-        $(this).toggleClass('is-active');
-        $(this).next('.content').toggleClass('is-visible');
-      });
+</script>
 
-      $('h2.label.calendar').click(function() {
-        $('.week').addClass('is-visible');
-        $(this).click(function() {
-          $('.week').toggleClass('is-visible');
-        });
-      });
-
-    });
-  </script>
-    <script type="text/javascript" src="//use.typekit.net/njk3tye.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<!-- End Google Analytics -->
   </head>
+
   <body>
     <div id="page">
       <div id="header">
