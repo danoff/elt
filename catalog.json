@@ -28,6 +28,15 @@
       "tags": ["peeragogy", "handbook", "education"]
     },
     {
+      "title": "ENG 099 Conversational American English Textbook",
+      "type": "Textbook",
+      "year": "2022",
+      "blurb": "A practical ESL resource with dialogues, activities, and assessment ideas.",
+      "price": "$15",
+      "url": "https://store.teachinglaboratory.com/l/eng099",
+      "tags": ["textbook", "ESL", "teaching", "education"]
+    },
+    {
       "title": "The Uncertainty Principle, Issue 4: Reality",
       "type": "Zine",
       "year": "2023",
@@ -62,7 +71,65 @@
       "price": "Pay what you want (min $15)",
       "url": "https://store.teachinglaboratory.com/l/peeragogy-bundle",
       "tags": ["bundle", "peeragogy", "handbook", "education"],
-      "includes": ["Peeragogy Handbook 1.3.1", "Peeragogy Handbook 2.01", "Peeragogy Handbook 3.0"]
+      "includes": [
+        "Peeragogy Handbook 1.3.1",
+        "Peeragogy Handbook 2.01",
+        "Peeragogy Handbook 3.0"
+      ]
+    },
+    {
+      "title": "Peeragogy Complete Set",
+      "type": "Bundle",
+      "year": "2025",
+      "blurb": "All three Peeragogy Handbooks collected in one package—the complete evolution of peer learning resources.",
+      "price": "Pay what you want (min $20)",
+      "url": "https://store.teachinglaboratory.com/l/peeragogy-complete",
+      "tags": ["bundle", "peeragogy", "handbook", "education"],
+      "includes": [
+        "Peeragogy Handbook 1.3.1",
+        "Peeragogy Handbook 2.01",
+        "Peeragogy Handbook 3.0"
+      ]
+    },
+    {
+      "title": "Zines + Teaching Pack",
+      "type": "Bundle",
+      "year": "2025",
+      "blurb": "Two Uncertainty Principle issues plus ENG 099—bridging literature, experimentation, and classroom use.",
+      "price": "Pay what you want (min $12)",
+      "url": "https://store.teachinglaboratory.com/l/zines-teaching-pack",
+      "tags": ["bundle", "zine", "teaching", "ESL", "education"],
+      "includes": [
+        "The Uncertainty Principle, Issue 4: Reality",
+        "The Uncertainty Principle, Issue 5: Snoozing i$$ue",
+        "ENG 099 Conversational American English Textbook"
+      ]
+    },
+    {
+      "title": "Uncertainty Principle Double Pack",
+      "type": "Bundle",
+      "year": "2025",
+      "blurb": "Issues 4 and 5 of daLab’s experimental zine—truth, perception, and Open Education.",
+      "price": "Pay what you want (min $5)",
+      "url": "https://store.teachinglaboratory.com/l/theup-double-pack",
+      "tags": ["bundle", "zine", "uncertainty principle", "literature"],
+      "includes": [
+        "The Uncertainty Principle, Issue 4: Reality",
+        "The Uncertainty Principle, Issue 5: Snoozing i$$ue"
+      ]
+    },
+    {
+      "title": "Peeragogy 3.0 + Ballcarriers Research Pack",
+      "type": "Bundle",
+      "year": "2025",
+      "blurb": "Peeragogy 3.0 for collaborative learning + the NFL Big Data Bowl paper on teamwork in tackling.",
+      "price": "Pay what you want (min $10)",
+      "url": "https://store.teachinglaboratory.com/l/peeragogy-research-pack",
+      "tags": ["bundle", "peeragogy", "handbook", "research", "sports analytics"],
+      "includes": [
+        "Peeragogy Handbook 3.0",
+        "Lending a Hand in Bringing Ballcarriers Down"
+      ]
     }
   ]
 }
