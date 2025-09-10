@@ -1,25 +1,58 @@
 {
   "products": [
     {
-      "title": "The Uncertainty Principle – Issue 4: Reality",
-      "type": "Zine",
-      "blurb": "An experimental zine exploring learning, reality, and uncertainty.",
-      "url": "https://store.teachinglaboratory.com/l/theup-issue4",
-      "price": "Pay what you want (min $5)"
-    },
-    {
-      "title": "Peeragogy Handbook (3.0 Edition)",
+      "title": "Peeragogy Handbook 1.3.1",
       "type": "Handbook",
-      "blurb": "A collaboratively written guide to peer learning and peer production.",
-      "url": "https://store.teachinglaboratory.com/l/peeragogy3",
-      "price": "Pay what you want (min $10)"
+      "year": "2013",
+      "blurb": "Foundational collection of peer learning techniques; early collaborative edition.",
+      "price": "Pay what you want (min $5)",
+      "url": "https://store.teachinglaboratory.com/l/peeragogy131",
+      "tags": ["peeragogy", "handbook", "education"]
     },
     {
-      "title": "ENG 099 Conversational American English Textbook",
-      "type": "Textbook",
-      "blurb": "A resource for ESL learners with patterns, dialogues, and activities.",
-      "url": "https://store.teachinglaboratory.com/l/eng099",
-      "price": "$15"
+      "title": "Peeragogy Handbook 2.01",
+      "type": "Handbook",
+      "year": "2014",
+      "blurb": "Expanded with case studies, design patterns, and peer-produced resources.",
+      "price": "Pay what you want (min $5)",
+      "url": "https://store.teachinglaboratory.com/l/peeragogy201",
+      "tags": ["peeragogy", "handbook", "education"]
+    },
+    {
+      "title": "Peeragogy Handbook 3.0",
+      "type": "Handbook",
+      "year": "2016",
+      "blurb": "Most comprehensive edition, includes a workbook, refined pattern catalog, and improved design.",
+      "price": "Pay what you want (min $10)",
+      "url": "https://store.teachinglaboratory.com/l/peeragogy30",
+      "tags": ["peeragogy", "handbook", "education"]
+    },
+    {
+      "title": "The Uncertainty Principle, Issue 4: Reality",
+      "type": "Zine",
+      "year": "2023",
+      "blurb": "Literary experiments, fiction, and reflections on truth and perception.",
+      "price": "Pay what you want (min $3)",
+      "url": "https://store.teachinglaboratory.com/l/theup-issue4",
+      "tags": ["zine", "uncertainty principle", "literature"]
+    },
+    {
+      "title": "The Uncertainty Principle, Issue 5: Snoozing i$$ue",
+      "type": "Zine",
+      "year": "2025",
+      "blurb": "Poetry, fiction, and an essay on Open Education. Published in Chicago by #daLabPress.",
+      "price": "Pay what you want (min $3)",
+      "url": "https://store.teachinglaboratory.com/l/theup-issue5",
+      "tags": ["zine", "uncertainty principle", "literature"]
+    },
+    {
+      "title": "Lending a Hand in Bringing Ballcarriers Down",
+      "type": "Research Paper",
+      "year": "2024",
+      "blurb": "NFL Big Data Bowl research quantifying teamwork in tackling using Next Gen Stats.",
+      "price": "Free download",
+      "url": "https://store.teachinglaboratory.com/l/ballcarriers",
+      "tags": ["research", "sports analytics", "football"]
     }
   ]
 }
