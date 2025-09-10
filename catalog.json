@@ -1,0 +1,25 @@
+{
+  "products": [
+    {
+      "title": "The Uncertainty Principle – Issue 4: Reality",
+      "type": "Zine",
+      "blurb": "An experimental zine exploring learning, reality, and uncertainty.",
+      "url": "https://store.teachinglaboratory.com/l/theup-issue4",
+      "price": "Pay what you want (min $5)"
+    },
+    {
+      "title": "Peeragogy Handbook (3.0 Edition)",
+      "type": "Handbook",
+      "blurb": "A collaboratively written guide to peer learning and peer production.",
+      "url": "https://store.teachinglaboratory.com/l/peeragogy3",
+      "price": "Pay what you want (min $10)"
+    },
+    {
+      "title": "ENG 099 Conversational American English Textbook",
+      "type": "Textbook",
+      "blurb": "A resource for ESL learners with patterns, dialogues, and activities.",
+      "url": "https://store.teachinglaboratory.com/l/eng099",
+      "price": "$15"
+    }
+  ]
+}
